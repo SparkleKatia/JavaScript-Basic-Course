@@ -12,3 +12,14 @@
  *
  * 4. Вызовите функцию
  */
+
+/**
+ * showDiff returns the difference of two numbers
+ * @param {number} a
+ * @param {number} b
+ * @returns {number} the diffference between two numbers
+ */
+
+const showDiff = (a, b) => a - b;
+
+console.log(showDiff(10, 5));
