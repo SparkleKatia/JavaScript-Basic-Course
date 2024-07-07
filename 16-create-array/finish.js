@@ -6,3 +6,8 @@
  *
  * 3. Выведите в консоль длину массива
  */
+
+const things = [true, "apple", 19];
+
+console.log(things[0]);
+console.log(things.length);
