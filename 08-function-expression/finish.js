@@ -10,3 +10,10 @@
  *
  * 5. Результат вызовов функции выведите в консоль
  */
+
+const greet = function (name) {
+  return `Hi, ${name}`;
+};
+
+console.log(greet("Katia"));
+console.log(greet("Peter"));
