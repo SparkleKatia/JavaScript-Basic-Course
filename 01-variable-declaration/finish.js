@@ -7,3 +7,5 @@
  *
  * 3. Выведите значение переменной в консоль
  */
+const fruit = "apple";
+console.log(fruit);
