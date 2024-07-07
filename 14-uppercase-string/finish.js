@@ -12,3 +12,14 @@
  *
  * 5. Выведите в консоль значение второй переменной
  */
+
+const myName = "Katia";
+
+const isString = myName instanceof String;
+console.log(`Is String - ${isString}`);
+
+const stringType = typeof myName;
+console.log(`Type is - ${stringType}`);
+
+const myNameUpperCase = myName.toUpperCase();
+console.log(myNameUpperCase);
