@@ -7,3 +7,10 @@
  *
  * 3. Выведите значение последней переменной в консоль
  */
+
+const years = 10;
+const money = 20_000;
+
+const result = years * money;
+
+console.log(result);
