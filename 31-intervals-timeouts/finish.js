@@ -12,3 +12,15 @@
  * "Сообщение номер 4"
  * "Сообщение номер 5"
  */
+let a = 1;
+function printMessage() {
+  console.log(`Сообщение номер ${a}`);
+  a++;
+}
+
+let intervalId = setInterval(printMessage, 2000);
+
+setTimeout(() => {
+  console.log("stop");
+  clearInterval(intervalId);
+}, 10000);
