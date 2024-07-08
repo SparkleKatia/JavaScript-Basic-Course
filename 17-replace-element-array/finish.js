@@ -8,3 +8,11 @@
  *
  * 4. Выведите в консоль измененный массив
  */
+
+const myArr = [true, 10, "moon"];
+
+console.log(myArr);
+
+myArr[0] = "Hello";
+
+console.log(myArr);
