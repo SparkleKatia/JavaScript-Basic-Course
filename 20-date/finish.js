@@ -4,3 +4,6 @@
  *
  * 2. Выведите значение в консоль
  */
+
+const timeNow = new Date();
+console.log(timeNow.getTime());
