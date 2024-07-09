@@ -14,28 +14,28 @@
 
 const cars = [
   {
-    carBrand: 'BMW',
+    carBrand: "BMW",
     price: 12000,
     isAvailableForSale: true,
   },
   {
-    carBrand: 'Honda',
+    carBrand: "Honda",
     price: 10000,
     isAvailableForSale: false,
   },
   {
-    carBrand: 'Toyota',
+    carBrand: "Toyota",
     price: 8000,
     isAvailableForSale: true,
   },
-]
+];
 
 const newCar = {
-  carBrand: 'Tesla',
+  carBrand: "Tesla",
   price: 20000,
   isAvailableForSale: false,
-}
+};
 
-cars.push(newCar)
+cars.push(newCar);
 
-console.log(cars)
+console.log(cars);
