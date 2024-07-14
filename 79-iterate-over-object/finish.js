@@ -12,12 +12,19 @@
 const objectWithNumbers = {
   a: 10,
   b: 20,
-  c: 'string',
+  c: "string",
   d: 12,
-}
+};
 
-// Создайте функцию здесь
+const sumObjectValues = (object) => {
+  return Object.values(object).reduce((sum, value) => {
+    if (typeof value === "number") {
+      return sum + value;
+    }
+    return sum;
+  });
+};
 
-const result = sumObjectValues(objectWithNumbers)
-console.log(result)
+const result = sumObjectValues(objectWithNumbers);
+console.log(result);
 //42
