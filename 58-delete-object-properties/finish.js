@@ -7,17 +7,25 @@
  * не будут доступны после операции деструктуризации.
  */
 
+// object
 let person = {
-  _id: '5ad8cefcc0971792dacb3f1f',
+  _id: "5ad8cefcc0971792dacb3f1f",
   index: 4,
   processed: false,
-  cart: ['item1', 'item2', 'item3'],
-  email: 'slarsen@test.com',
-  name: 'Samanta Larsen',
+  cart: ["item1", "item2", "item3"],
+  email: "slarsen@test.com",
+  name: "Samanta Larsen",
   cartId: 435,
+};
+
+// block-skoped code to hide _id, processed, cart variables
+{
+  //
+  let _i, processed, cart;
+  ({ _id, processed, cart, ...person } = person);
 }
 
-console.log(person)
+console.log(person);
 /*
 {
   index: 4,
