@@ -6,7 +6,14 @@
 
 const a = [1, 2, 3];
 
-const b = [...a];
+// // OPTION 1
+// const b = [...a]
+
+// // OPTION 2
+// const b = Array.from(a)
+
+// OPTION 3
+const b = JSON.parse(JSON.stringify(a));
 
 b.push("newElement");
 
